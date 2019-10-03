@@ -1,0 +1,117 @@
+*{
+	margin:0;
+	padding:0;
+}
+/*header start*/
+header{
+       background-color: #121B2A
+}
+.wrapper{
+        width: 80%;
+        margin: 0 auto;
+        overflow: hidden;
+}
+.logo{
+      width: 15%;
+      float:left;
+}
+.logo img{
+      width:100%;
+}
+.menu{
+      width:70%;
+      float:right;
+      margin-top: 27px;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	    list-style: none;
+    float: left;
+}
+.menu ul li a{
+	text-decoration: none;
+    padding: 5px 15px;
+    display: block;
+    color: white;
+    transition: .5s;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+.menu ul li a:hover{
+	color:#0B3C5E;
+}
+/*header end*/
+/*banner start*/
+.banner{
+	background-image: url(../images/blue12.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top-center
+
+}
+.banner-wrapper{
+	width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.banner-content{
+	        margin: 200px 0px 50px;
+    width: 30%;
+}
+.banner-content p:first-child{
+	    color: white;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+.banner-content h1{
+	    color: goldenrod;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.banner-content p:last-child{
+    font-size: 18px;
+    color: bisque;
+}
+.banner-content button{
+	    color: darkblue;
+
+}
+
+.banner-content button span{
+
+}
+
+/*banner end*/
+/*service start*/
+.service{
+	background-color: #121B2C
+	padding: 50px 0;
+}
+.single{
+	border:2px solid white;
+	width: 30%
+}
+.title{
+	overflow:hidden;
+}
+.icon{
+	border:1px solid red;
+	 width:25%;
+	 float:left;
+}
+.icon-img{
+	width:100%;
+}
+.icon-content{
+	border:1px solid red
+	width:25%;
+	float:left;
+}
+.icon-content h1{}
+.icon-content h2{}
+.content{}
+.content p{}
